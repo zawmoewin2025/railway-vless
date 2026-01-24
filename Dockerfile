@@ -15,4 +15,4 @@ RUN wget https://github.com/cloudflare/cloudflared/releases/latest/download/clou
 COPY config.json /etc/v2ray/config.json
 
 # wap tunnel ရဲ့ token ကို ဒီမှာ အစားထိုးပါ
-CMD ./v2ray run -c /etc/v2ray/config.json & cloudflared tunnel --no-autoupdate run --token eyJhIjoiNTBlNjY3NDA4YTBjMWQ1MmVmNTBhZmIyNGViNmViOGEiLCJ0IjoiYTI3MTY1YjYtMzdkYy00MmJhLThmM2UtNGFkYzk0YWI5MGE3IiwicyI6Ik5UTXdPR0l3WTJRdFpqWTVaaTAwTldKbExXSTFOelF0WXpNeVlqVmlPV0ZrTkdSbSJ9
+CMD ./v2ray run -c /etc/v2ray/config.json & cloudflared tunnel --no-autoupdate run --token eyJhIjoiNTBlNjY3NDA4YTBjMWQ1MmVmNTBhZmIyNGViNmViOGEiLCJ0IjoiYTI3MTY1YjYtMzdkYy00MmJhLThmM2UtNGFkYzk0YWI5MGE3IiwicyI6Ik1qWTJNak0zTjJFdFpEWTJOeTAwTXpsbUxUaGxZemd0WWpBM1lqTmtZVGd3TTJJMiJ9
